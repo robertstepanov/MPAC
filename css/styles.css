@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;;
+}
+
+#landing {
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.nav-container {
+    width: 40%;
+    display: flex;
+}
+
+.nav-container ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-container ul li a {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+
+.main-content {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 6rem;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.main-content h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.main-content p {
+    margin-bottom: 4rem;
+    text-align: center;
+    line-height: 2;
+}
+
+.landing-btn a{ 
+    border: 2px solid #000;
+    background: transparent;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+/* ------------------   About Us Section   ------------------*/
+
+#about {
+    height: 100vh;
+}
+
+.about-container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-info {
+    width: 70%;
+}
+
+.about-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.about-img img {
+    width: 300px;
+}
